@@ -3468,11 +3468,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\MedFlow.csproj",
+      "projectUniqueName": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\MedFlow.csproj",
       "projectName": "MedFlow",
-      "projectPath": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\MedFlow.csproj",
+      "projectPath": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\MedFlow.csproj",
       "packagesPath": "C:\\Users\\Nomin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\obj\\",
+      "outputPath": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nomin\\AppData\\Roaming\\NuGet\\NuGet.Config",

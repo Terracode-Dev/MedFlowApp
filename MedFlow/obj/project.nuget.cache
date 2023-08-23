@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UGyT+zfxifaI5Mzw7hJ91B0hfyce/BloEgTOghKxMkyxRlFaAPPj77O5nimopah0o5TUrIm2vBMQoRRTgzzbYg==",
+  "dgSpecHash": "o84NU7UbWWhpOpFSbQev7O6UacEO6OOM3XX12K2P+x9Ib0tVprU30OR3b2G0S2UN5mOyD9/pcspAoD8H2pMKDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\MedFlow.csproj",
+  "projectFilePath": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\MedFlow.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nomin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Nomin\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

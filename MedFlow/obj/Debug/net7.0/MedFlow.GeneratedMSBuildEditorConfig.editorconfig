@@ -9,41 +9,81 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MedFlow
 build_property.RootNamespace = MedFlow
-build_property.ProjectDir = C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOW\MedFlow\
+build_property.ProjectDir = C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOWAPPGIT\MedFlow\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOW\MedFlow
+build_property.MSBuildProjectDirectory = C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOWAPPGIT\MedFlow
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOW/MedFlow/Views/Assistant/Dashboard.cshtml]
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Assistant/Appointmentq.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaXN0YW50XEFwcG9pbnRtZW50cS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Assistant/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaXN0YW50XERhc2hib2FyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOW/MedFlow/Views/Home/Index.cshtml]
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Assistant/Patientq.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaXN0YW50XFBhdGllbnRxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Assistant/Patients.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaXN0YW50XFBhdGllbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Doctor/Appointmentq.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEFwcG9pbnRtZW50cS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Doctor/Doctor_dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXERvY3Rvcl9kYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Doctor/Doc_Ass_dash.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXERvY19Bc3NfZGFzaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Doctor/Patientq.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFBhdGllbnRxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Doctor/Patients.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFBhdGllbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOW/MedFlow/Views/Home/Privacy.cshtml]
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOW/MedFlow/Views/Shared/Error.cshtml]
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOW/MedFlow/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Shared/_LayoutAssistant.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBc3Npc3RhbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Shared/_LayoutDoctor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXREb2N0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOW/MedFlow/Views/_ViewImports.cshtml]
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOW/MedFlow/Views/_ViewStart.cshtml]
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOW/MedFlow/Views/Shared/_Layout.cshtml]
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-er688iajhb

@@ -60,8 +60,9 @@ namespace MedFlow.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("birth_date")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("birth_date")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("contact")
                         .IsRequired()
