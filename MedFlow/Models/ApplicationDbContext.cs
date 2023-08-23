@@ -52,6 +52,10 @@ namespace MedFlow.Models
 
         public DbSet<userType> usertypes { get; set; }
 
+        public DbSet<Appointmentq> appointmentq { get; set; }
+
+        public DbSet<prescriptionq> prescriptionq { get; set; }
+
 
 
 

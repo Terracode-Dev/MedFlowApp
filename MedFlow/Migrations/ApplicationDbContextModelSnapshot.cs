@@ -22,6 +22,29 @@ namespace MedFlow.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("MedFlow.Models.Appointmentq", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<DateTime>("date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("patient_id")
+                        .HasColumnType("int");
+
+                    b.Property<string>("status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
+
+                    b.ToTable("appointmentq");
+                });
+
             modelBuilder.Entity("MedFlow.Models.Patient", b =>
                 {
                     b.Property<int>("Id")
@@ -147,6 +170,32 @@ namespace MedFlow.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("paidState");
+                });
+
+            modelBuilder.Entity("MedFlow.Models.prescriptionq", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<DateTime>("date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("filepath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("patient_id")
+                        .HasColumnType("int");
+
+                    b.Property<int>("token")
+                        .HasColumnType("int");
+
+                    b.HasKey("id");
+
+                    b.ToTable("prescriptionq");
                 });
 
             modelBuilder.Entity("MedFlow.Models.userDetails", b =>
