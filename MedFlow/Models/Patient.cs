@@ -10,7 +10,7 @@ namespace MedFlow.Models
         public int Id { get; set; }
         public string name { get; set; }
 
-        public DateTime birth_date { get; set; }
+        public string birth_date { get; set; }
 
         public string contact { get; set; }
 
