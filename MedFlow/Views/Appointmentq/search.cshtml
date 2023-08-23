@@ -8,16 +8,6 @@
 <td>@patient.Id</td>
 <td>@patient.name</td>
 <td>@patient.contact</td>
-    <td><button class="btn btn-primary" type="button" id="@patient.name@patient.Id" style="height: 43px;">ADD</button></td>
-<script>
-        let uid = "@patient.name@patient.Id";
-    console.log(uid);
-    let addbtn = document.getElementById(uid);
-    addbtn.addEventListener('click', async function () {
-            let url = `/Appointmentq/Search?userid=${encodeURIComponent(uid)}`;
-        console.log(url);
-            const response = await fetch(url);
-    });
+    <td> <button class="btn btn-primary" type="button" id="@patient.name@patient.Id" style="height: 43px;"><a asp-controller="Appointmentq" asp-action="addAppointment" asp-route-uid="@patient.Id" style="color:white;text-decoration:none;">ADD</a></button></td>
 
-    </script>
 }

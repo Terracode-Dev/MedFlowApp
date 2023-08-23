@@ -11,15 +11,38 @@ namespace MedFlow.Controllers
         {
             DbContext = Context;
         }
+
+
+        //------Utility Methods-------
         public List<Patient> SearchQuery(string qname)
         {
             var dataset = DbContext.patients.Where(patient => patient.name == qname).ToList();
             return dataset;
         }
 
+        public int CreateAppointment(Appointmentq data)
+        {
+            DbContext.appointmentq.Add(data);
+            DbContext.SaveChanges();
+            return 1;
+        }
+
+        public List<Appointmentq> retrieveAllAppoinments ()
+        {
+            var dataset = DbContext.appointmentq.ToList();
+            return dataset;
+        }
+
+       
+
+
+        //--------View Handlers-----
+
         public IActionResult Index()
         {
-            return View();
+            var allAppointments = retrieveAllAppoinments();
+            return View(allAppointments);
+        
         }
 
 
@@ -32,11 +55,32 @@ namespace MedFlow.Controllers
             return PartialView("search",data);
         }
 
-        public IActionResult addAppointment ()
+        public IActionResult addAppointment (int uid)
         {
-            int uid = Convert.ToInt32(Request.Query["userid"]);
+            
+            var data = new Appointmentq
+            {
+                date = DateTime.Now,
+                status = "Active",
+                patient_id = uid,
+            };
+            CreateAppointment(data);
 
-            return View("index");
+            var allAppointments = retrieveAllAppoinments();
+            return View("index", allAppointments);
+        }
+
+        public IActionResult DeleteAppointment(int aid)
+        {
+            var app = DbContext.appointmentq.Find(aid);
+            if (app != null)
+            {
+                DbContext.appointmentq.Remove(app);
+                DbContext.SaveChanges();
+            }
+
+            var allAppointments = retrieveAllAppoinments();
+            return View("index", allAppointments);
         }
     }
 }

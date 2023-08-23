@@ -109,31 +109,33 @@
                         <table class="table">
                             <thead>
                                 <tr>
+                                    <th>Appoinement ID</th>
                                     <th>Patient ID</th>
-                                    <th>Patient Name</th>
-                                    <th>Contact No</th>
-                                    <th>Age</th>
-                                    <th>Gender</th>
+                                    <th>Token</th>
+                                    <th>Date</th>
+                                    <th>Status</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>Cell 1</td>
-                                    <td>Cell 2</td>
-                                    <td>Cell 2</td>
-                                    <td>Cell 2</td>
-                                    <td>Cell 2</td>
-                                    <td><button class="btn btn-primary py-0" type="button" style="margin-left: 2px;margin-bottom: 0px;margin-right: 26px;"><i class="far fa-trash-alt"></i></button><button class="btn btn-primary py-0" type="button" style="margin-left: 0px;margin-right: 0px;"><i class="far fa-eye"></i></button></td>
-                                </tr>
-                                <tr>
-                                    <td>Cell 3</td>
-                                    <td>Cell 4</td>
-                                    <td>Cell 4</td>
-                                    <td>Cell 4</td>
-                                    <td>Cell 4</td>
-                                    <td><button class="btn btn-primary py-0" type="button" style="margin-left: 2px;margin-bottom: 0px;margin-right: 26px;"><i class="far fa-trash-alt"></i></button><button class="btn btn-primary py-0" type="button" style="margin-left: 0px;margin-right: 0px;"><i class="far fa-eye"></i></button></td>
-                                </tr>
+                                
+                                    @foreach (var Appointment in Model)
+                                    {
+                                    <tr>
+                                        <td>@Appointment.id</td>
+                                        <td>@Appointment.patient_id</td>
+                                        <td>@Appointment.id</td>
+                                        <td>@Appointment.date</td>
+                                        <td>@Appointment.status</td>
+                                        <td>
+                                            <button class="btn btn-primary py-0" type="button" style="margin-left: 2px;margin-bottom: 0px;margin-right: 26px;"><a asp-controller="Appointmentq" asp-action="DeleteAppointment" asp-route-aid="@Appointment.id" style="color:white;text-decoration:none;"><i class="far fa-trash-alt"></i></a></button>
+                                            <button class="btn btn-primary py-0" type="button" style="margin-left: 0px;margin-right: 0px;"><i class="far fa-eye"></i></button>
+                                        </td>
+                                    </tr>
+                                    }
+                                    
+                                
+                                
                             </tbody>
                         </table>
                     </div>
