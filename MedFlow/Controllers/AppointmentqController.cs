@@ -33,6 +33,17 @@ namespace MedFlow.Controllers
             return dataset;
         }
 
+
+        public void removeAppoinment (int aid)
+        {
+            var app = DbContext.appointmentq.Find(aid);
+            if (app != null)
+            {
+                DbContext.appointmentq.Remove(app);
+                DbContext.SaveChanges();
+            }
+        }
+
        
 
 
@@ -40,13 +51,10 @@ namespace MedFlow.Controllers
 
         public IActionResult Index()
         {
-            var allAppointments = retrieveAllAppoinments();
-            return View(allAppointments);
+            return View(retrieveAllAppoinments());
         
+            
         }
-
-
-
         public IActionResult Search() {
 
             //url ---> Appoinmentq/Search
@@ -65,22 +73,17 @@ namespace MedFlow.Controllers
                 patient_id = uid,
             };
             CreateAppointment(data);
+           return View("index", retrieveAllAppoinments());
 
-            var allAppointments = retrieveAllAppoinments();
-            return View("index", allAppointments);
+            
         }
 
         public IActionResult DeleteAppointment(int aid)
         {
-            var app = DbContext.appointmentq.Find(aid);
-            if (app != null)
-            {
-                DbContext.appointmentq.Remove(app);
-                DbContext.SaveChanges();
-            }
+            removeAppoinment(aid);
+            return View("index", retrieveAllAppoinments());
 
-            var allAppointments = retrieveAllAppoinments();
-            return View("index", allAppointments);
+            
         }
     }
 }
