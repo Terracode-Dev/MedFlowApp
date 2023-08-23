@@ -1,0 +1,23 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@foreach(var patient in Model)
+{
+<td>@patient.Id</td>
+<td>@patient.name</td>
+<td>@patient.contact</td>
+    <td><button class="btn btn-primary" type="button" id="@patient.name@patient.Id" style="height: 43px;">ADD</button></td>
+<script>
+        let uid = "@patient.name@patient.Id";
+    console.log(uid);
+    let addbtn = document.getElementById(uid);
+    addbtn.addEventListener('click', async function () {
+            let url = `/Appointmentq/Search?userid=${encodeURIComponent(uid)}`;
+        console.log(url);
+            const response = await fetch(url);
+    });
+
+    </script>
+}

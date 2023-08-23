@@ -11,7 +11,7 @@ namespace MedFlow.Controllers
         {
             DbContext = Context;
         }
-        public object SearchQuery(string qname)
+        public List<Patient> SearchQuery(string qname)
         {
             var dataset = DbContext.patients.Where(patient => patient.name == qname).ToList();
             return dataset;
@@ -24,11 +24,19 @@ namespace MedFlow.Controllers
 
 
 
-        public IActionResult Search(string name) {
+        public IActionResult Search() {
 
             //url ---> Appoinmentq/Search
-            var data = SearchQuery(name);
-            return PartialView(data);
+            string searchTxt = Request.Query["searchText"];
+            var data = SearchQuery(searchTxt);
+            return PartialView("search",data);
+        }
+
+        public IActionResult addAppointment ()
+        {
+            int uid = Convert.ToInt32(Request.Query["userid"]);
+
+            return View("index");
         }
     }
 }
