@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yhiPlj6ocpkDurLdJ56nuCuhEYT+6n60oxasoiQ6McM=",
+  "Hash": "Ju1m1L2kq1C67WixTImh61NUEVMwkqaDmn3p71X3Xec=",
   "Source": "MedFlow",
   "BasePath": "_content/MedFlow",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "MedFlow\\wwwroot",
       "Source": "MedFlow",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\obj\\Debug\\net7.0\\scopedcss\\bundle\\MedFlow.styles.css",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\obj\\Debug\\net7.0\\scopedcss\\bundle\\MedFlow.styles.css",
       "SourceId": "MedFlow",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "MedFlow.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\obj\\Debug\\net7.0\\scopedcss\\bundle\\MedFlow.styles.css"
+      "OriginalItemSpec": "E:\\MedFlowApp\\MedFlow\\obj\\Debug\\net7.0\\scopedcss\\bundle\\MedFlow.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MedFlow.bundle.scp.css",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MedFlow.bundle.scp.css",
       "SourceId": "MedFlow",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "MedFlow.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,149 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MedFlow.bundle.scp.css"
+      "OriginalItemSpec": "E:\\MedFlowApp\\MedFlow\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MedFlow.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\css\\site.css",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\assets\\bootstrap\\css\\bootstrap.min.css",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
+      "BasePath": "_content/MedFlow",
+      "RelativePath": "assets/bootstrap/css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\assets\\img\\avatars\\avatar1.jpeg",
+      "SourceId": "MedFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
+      "BasePath": "_content/MedFlow",
+      "RelativePath": "assets/img/avatars/avatar1.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\avatars\\avatar1.jpeg"
+    },
+    {
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\assets\\img\\avatars\\avatar2.jpeg",
+      "SourceId": "MedFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
+      "BasePath": "_content/MedFlow",
+      "RelativePath": "assets/img/avatars/avatar2.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\avatars\\avatar2.jpeg"
+    },
+    {
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\assets\\img\\avatars\\avatar3.jpeg",
+      "SourceId": "MedFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
+      "BasePath": "_content/MedFlow",
+      "RelativePath": "assets/img/avatars/avatar3.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\avatars\\avatar3.jpeg"
+    },
+    {
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\assets\\img\\avatars\\avatar4.jpeg",
+      "SourceId": "MedFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
+      "BasePath": "_content/MedFlow",
+      "RelativePath": "assets/img/avatars/avatar4.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\avatars\\avatar4.jpeg"
+    },
+    {
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\assets\\img\\avatars\\avatar5.jpeg",
+      "SourceId": "MedFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
+      "BasePath": "_content/MedFlow",
+      "RelativePath": "assets/img/avatars/avatar5.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\avatars\\avatar5.jpeg"
+    },
+    {
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\assets\\img\\dogs\\image2.jpeg",
+      "SourceId": "MedFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
+      "BasePath": "_content/MedFlow",
+      "RelativePath": "assets/img/dogs/image2.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\dogs\\image2.jpeg"
+    },
+    {
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\assets\\js\\theme.js",
+      "SourceId": "MedFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
+      "BasePath": "_content/MedFlow",
+      "RelativePath": "assets/js/theme.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\theme.js"
+    },
+    {
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\css\\site.css",
+      "SourceId": "MedFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\favicon.ico",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\favicon.ico",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\js\\site.js",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\js\\site.js",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -102,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -119,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -136,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -153,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -170,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -187,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -204,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -221,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -238,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -255,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -272,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -289,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -306,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -323,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -340,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -357,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -374,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -391,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -408,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -425,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -442,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -459,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -476,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -493,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -510,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -527,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -544,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -561,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -578,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -595,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -612,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -629,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -646,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -663,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -680,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -697,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -714,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -731,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -748,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -765,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -782,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -799,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -816,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -833,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -850,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -867,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -884,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -901,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -918,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -935,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -952,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -969,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -986,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1003,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1020,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1037,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1054,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "E:\\MedFlowApp\\MedFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "MedFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\",
+      "ContentRoot": "E:\\MedFlowApp\\MedFlow\\wwwroot\\",
       "BasePath": "_content/MedFlow",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
