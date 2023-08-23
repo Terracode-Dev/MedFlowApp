@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace MedFlow.Controllers
 {
+    
     public class AssistantController : Controller
     {
         public IActionResult Dashboard()
@@ -20,6 +22,10 @@ namespace MedFlow.Controllers
         }
 
         public IActionResult Patientq()
+        {
+            return View();
+        }
+        public IActionResult Paymentq()
         {
             return View();
         }

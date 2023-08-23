@@ -326,3 +326,12 @@ E:\MedFlowApp\MedFlow\obj\Debug\net7.0\refint\MedFlow.dll
 E:\MedFlowApp\MedFlow\obj\Debug\net7.0\MedFlow.pdb
 E:\MedFlowApp\MedFlow\obj\Debug\net7.0\MedFlow.genruntimeconfig.cache
 E:\MedFlowApp\MedFlow\obj\Debug\net7.0\ref\MedFlow.dll
+E:\MedFlowApp\MedFlow\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\MedFlowApp\MedFlow\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\MedFlowApp\MedFlow\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\MedFlowApp\MedFlow\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+E:\MedFlowApp\MedFlow\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\MedFlowApp\MedFlow\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+E:\MedFlowApp\MedFlow\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+E:\MedFlowApp\MedFlow\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+E:\MedFlowApp\MedFlow\obj\Debug\net7.0\MedFlow.MvcApplicationPartsAssemblyInfo.cs

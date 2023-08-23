@@ -1,0 +1,74 @@
+﻿
+@{
+    Layout = "_LayoutDoctor";
+    ViewData["Title"] = "PaymentHis";
+}
+<link rel="stylesheet" href="@Url.Content("~/assets/bootstrap/css/bootstrap.min.css")" />
+<div id="wrapper">
+    <div class="d-flex flex-column" id="content-wrapper">
+        <div id="content">
+            <div class="container-fluid" style="padding-top: 50px;">
+                <div class="modal fade" role="dialog" tabindex="-1" id="modal-1">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Modal Title</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>The content of your modal.</p>
+                            </div>
+                            <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow">
+                    <div class="card-header py-3">
+                        <p class="text-primary m-0 fw-bold">Payment History</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Payment ID</th>
+                                        <th>Payment Date</th>
+                                        <th>Payment Time</th>
+                                        <th>Patient Name</th>
+                                        <th>Amount</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Cell 1</td>
+                                        <td>Cell 2</td>
+                                        <td>Cell 1</td>
+                                        <td>Cell 4</td>
+                                        <td>Cell 5</td>
+                                        <td><button class="btn btn-primary" type="button" data-bs-target="#modal-1" data-bs-toggle="modal">Bill</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cell 3</td>
+                                        <td>Cell 4</td>
+                                        <td>Cell 3</td>
+                                        <td>Cell 4</td>
+                                        <td>Cell 5</td>
+                                        <td><button class="btn btn-primary" type="button" data-bs-target="#modal-1" data-bs-toggle="modal">Bill</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="bg-white sticky-footer" style="width: 808px;">
+            <div class="container my-auto">
+                <div class="text-center my-auto copyright"></div>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/theme.js"></script>
+
