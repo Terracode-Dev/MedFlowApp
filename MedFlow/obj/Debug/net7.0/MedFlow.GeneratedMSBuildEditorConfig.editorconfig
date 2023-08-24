@@ -24,44 +24,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRxXHNlYXJjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Assistant/Appointmentq.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaXN0YW50XEFwcG9pbnRtZW50cS5jc2h0bWw=
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Dashboard/Adashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEFkYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Assistant/Dashboard.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaXN0YW50XERhc2hib2FyZC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Assistant/Patientq.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaXN0YW50XFBhdGllbnRxLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Assistant/Patients.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaXN0YW50XFBhdGllbnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Dashboard/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXGluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Doctor/Appointmentq.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEFwcG9pbnRtZW50cS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Doctor/Doctor_dashboard.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXERvY3Rvcl9kYXNoYm9hcmQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Doctor/Doc_Ass_dash.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXERvY19Bc3NfZGFzaC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Doctor/Patientq.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFBhdGllbnRxLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Doctor/Patients.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFBhdGllbnRzLmNzaHRtbA==
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Dashboard/Ddashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERkYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Home/Index.cshtml]
@@ -70,6 +38,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Patientq/Patientq.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudHFcUGF0aWVudHEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Patients/EditPatient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudHNcRWRpdFBhdGllbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Patients/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Paymentq/Paymentq.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudHFcUGF5bWVudHEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Shared/Error.cshtml]

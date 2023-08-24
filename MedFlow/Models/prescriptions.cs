@@ -15,7 +15,9 @@ namespace MedFlow.Models
 
         public int patient_id { get; set; }
         public int payment_id { get; set; }
-        
+
+        public string billfilepath { get; set; }
+
 
         //Realtions
         public Patient patient { get; set; }
