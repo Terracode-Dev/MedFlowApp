@@ -54,6 +54,14 @@ namespace MedFlow.Controllers
             return PartialView("search", data);
         }
 
+
+        public IActionResult Ddashboard()
+        {
+            
+
+            return View(CreateAnalyticPanel());
+        }
+
         public IActionResult addAppointment(int uid)
         {
 
