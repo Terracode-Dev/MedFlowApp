@@ -73,14 +73,13 @@ C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOW\MedFlow\obj\Debug\net7.0\refint\MedF
 C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOW\MedFlow\obj\Debug\net7.0\MedFlow.pdb
 C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOW\MedFlow\obj\Debug\net7.0\MedFlow.genruntimeconfig.cache
 C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOW\MedFlow\obj\Debug\net7.0\ref\MedFlow.dll
+C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOWAPPGIT\MedFlow\bin\Debug\net7.0\MedFlow.dll
 C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOWAPPGIT\MedFlow\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOWAPPGIT\MedFlow\bin\Debug\net7.0\appsettings.json
 C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOWAPPGIT\MedFlow\bin\Debug\net7.0\MedFlow.staticwebassets.runtime.json
 C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOWAPPGIT\MedFlow\bin\Debug\net7.0\MedFlow.exe
 C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOWAPPGIT\MedFlow\bin\Debug\net7.0\MedFlow.deps.json
 C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOWAPPGIT\MedFlow\bin\Debug\net7.0\MedFlow.runtimeconfig.json
-C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOWAPPGIT\MedFlow\bin\Debug\net7.0\MedFlow.dll
-C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOWAPPGIT\MedFlow\bin\Debug\net7.0\MedFlow.pdb
 C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOWAPPGIT\MedFlow\bin\Debug\net7.0\Azure.Core.dll
 C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOWAPPGIT\MedFlow\bin\Debug\net7.0\Azure.Identity.dll
 C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOWAPPGIT\MedFlow\bin\Debug\net7.0\BouncyCastle.Crypto.dll
@@ -327,4 +326,5 @@ C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOWAPPGIT\MedFlow\obj\Debug\net7.0\MedFl
 C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOWAPPGIT\MedFlow\obj\Debug\net7.0\refint\MedFlow.dll
 C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOWAPPGIT\MedFlow\obj\Debug\net7.0\MedFlow.pdb
 C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOWAPPGIT\MedFlow\obj\Debug\net7.0\MedFlow.genruntimeconfig.cache
+C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOWAPPGIT\MedFlow\bin\Debug\net7.0\MedFlow.pdb
 C:\Users\Nomin\Desktop\V STUDIO UNI\MEDFLOWAPPGIT\MedFlow\obj\Debug\net7.0\ref\MedFlow.dll

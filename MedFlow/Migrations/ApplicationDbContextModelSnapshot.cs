@@ -33,11 +33,10 @@ namespace MedFlow.Migrations
                     b.Property<DateTime>("date")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("patient_id")
+                    b.Property<int?>("patient_id")
                         .HasColumnType("int");
 
                     b.Property<string>("status")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("id");
@@ -53,23 +52,19 @@ namespace MedFlow.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("added_by")
+                    b.Property<int?>("added_by")
                         .HasColumnType("int");
 
                     b.Property<string>("address")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("birth_date")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("contact")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("gender")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("name")
@@ -91,20 +86,17 @@ namespace MedFlow.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("billfilepath")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("prescription_id")
+                    b.Property<int?>("prescription_id")
                         .HasColumnType("int");
 
-                    b.Property<int>("price")
+                    b.Property<int?>("price")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.HasIndex("prescription_id")
-                        .IsUnique();
+                        .IsUnique()
+                        .HasFilter("[prescription_id] IS NOT NULL");
 
                     b.ToTable("payment");
                 });
@@ -117,17 +109,19 @@ namespace MedFlow.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("billfilepath")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("date")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("filepath")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("patient_id")
+                    b.Property<int?>("patient_id")
                         .HasColumnType("int");
 
-                    b.Property<int>("payment_id")
+                    b.Property<int?>("payment_id")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -146,10 +140,9 @@ namespace MedFlow.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("stocks")
+                    b.Property<int?>("stocks")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -165,7 +158,7 @@ namespace MedFlow.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("paid_count")
+                    b.Property<int?>("paid_count")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -185,13 +178,12 @@ namespace MedFlow.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("filepath")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("patient_id")
+                    b.Property<int?>("patient_id")
                         .HasColumnType("int");
 
-                    b.Property<int>("token")
+                    b.Property<int?>("token")
                         .HasColumnType("int");
 
                     b.HasKey("id");
@@ -208,14 +200,12 @@ namespace MedFlow.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
                     b.Property<string>("password")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("user_type")
+                    b.Property<int?>("user_type")
                         .HasColumnType("int");
 
                     b.Property<string>("username")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("id");
@@ -234,7 +224,6 @@ namespace MedFlow.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("type")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -246,9 +235,7 @@ namespace MedFlow.Migrations
                 {
                     b.HasOne("MedFlow.Models.userDetails", "userDetails")
                         .WithMany("patients")
-                        .HasForeignKey("added_by")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("added_by");
 
                     b.Navigation("userDetails");
                 });
@@ -257,9 +244,7 @@ namespace MedFlow.Migrations
                 {
                     b.HasOne("MedFlow.Models.Prescriptions", "prescriptions")
                         .WithOne("payments")
-                        .HasForeignKey("MedFlow.Models.Payments", "prescription_id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("MedFlow.Models.Payments", "prescription_id");
 
                     b.Navigation("prescriptions");
                 });
@@ -268,9 +253,7 @@ namespace MedFlow.Migrations
                 {
                     b.HasOne("MedFlow.Models.Patient", "patient")
                         .WithMany("prescriptions")
-                        .HasForeignKey("patient_id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("patient_id");
 
                     b.Navigation("patient");
                 });
@@ -279,9 +262,7 @@ namespace MedFlow.Migrations
                 {
                     b.HasOne("MedFlow.Models.userType", "userType")
                         .WithMany("userDetails")
-                        .HasForeignKey("user_type")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("user_type");
 
                     b.Navigation("userType");
                 });

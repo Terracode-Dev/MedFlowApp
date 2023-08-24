@@ -20,6 +20,8 @@ namespace MedFlow.Models
 
         public string? gender { get; set; }
 
+        
+
         //Relations
         public ICollection<Prescriptions> prescriptions { get; set; }
         public userDetails userDetails { get; set; }

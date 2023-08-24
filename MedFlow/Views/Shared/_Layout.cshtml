@@ -20,12 +20,12 @@
                 </a>
                 <hr class="sidebar-divider my-0">
                 <ul class="navbar-nav text-light" id="accordionSidebar">
-                    <li class="nav-item"><a class="nav-link active" href="index.html" style="color: rgba(75,74,74,0.8);"><i class="fas fa-tachometer-alt" style="color: #ffffff;"></i><span style="padding: 11px;color: #ffffff;">A.Dashboard</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="index-1.html" style="color: rgba(75,74,74,0.8);"><i class="fas fa-tachometer-alt" style="color: #ffffff;"></i><span style="padding: 11px;color: #ffffff;">D.Dashboard</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="patient.html" style="color: rgba(75,74,74,0.8);"><i class="fas fa-user" style="color: #ffffff;"></i><span style="padding: 11px;color: #ffffff;">Patient</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="appqueue.html" style="color: rgba(75,74,74,0.8);"><i class="fas fa-user" style="color: #ffffff;"></i><span style="padding: 11px;color: #ffffff;">Appointment Queue</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="patientq.html" style="color: rgba(75,74,74,0.8);"><i class="fas fa-user" style="color: #ffffff;"></i><span style="padding: 11px;color: #ffffff;">Patient Queue</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="Paymentq.html" style="color: rgba(75,74,74,0.8);"><i class="fas fa-user" style="color: #ffffff;"></i><span style="padding: 11px;color: #ffffff;">Payment Queue</span></a></li>
+                    <li class="nav-item"><a asp-controller="Dashboard" asp-action="Ddashboard" class="nav-link active"  style="color: rgba(75,74,74,0.8);"><i class="fas fa-tachometer-alt" style="color: #ffffff;"></i><span style="padding: 11px;color: #ffffff;">A.Dashboard</span></a></li>
+                    <li class="nav-item"><a asp-controller="Dashboard" asp-action="Adashboard" class="nav-link"  style="color: rgba(75,74,74,0.8);"><i class="fas fa-tachometer-alt" style="color: #ffffff;"></i><span style="padding: 11px;color: #ffffff;">D.Dashboard</span></a></li>
+                    <li class="nav-item"><a asp-controller="Patients" asp-action="Index" class="nav-link"  style="color: rgba(75,74,74,0.8);"><i class="fas fa-user" style="color: #ffffff;"></i><span style="padding: 11px;color: #ffffff;">Patients</span></a></li>
+                    <li class="nav-item"><a asp-controller="Appointmentq" asp-action="Index" class="nav-link"  style="color: rgba(75,74,74,0.8);"><i class="fas fa-user" style="color: #ffffff;"></i><span style="padding: 11px;color: #ffffff;">Appointment Queue</span></a></li>
+                    <li class="nav-item"><a asp-controller="Patientq" asp-action="Index" class="nav-link"  style="color: rgba(75,74,74,0.8);"><i class="fas fa-user" style="color: #ffffff;"></i><span style="padding: 11px;color: #ffffff;">Patient Queue</span></a></li>
+                    <li class="nav-item"><a asp-controller="Paymentq" asp-action="Index" class="nav-link"  style="color: rgba(75,74,74,0.8);"><i class="fas fa-user" style="color: #ffffff;"></i><span style="padding: 11px;color: #ffffff;">Payment Queue</span></a></li>
                     <li class="nav-item"></li>
                     <li class="nav-item"></li>
                 </ul>

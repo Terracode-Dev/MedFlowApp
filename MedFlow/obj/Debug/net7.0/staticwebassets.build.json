@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RGOiioOXXGXeuB7tFOTkSnYrlylnRaBopuTeRYouoR8=",
+  "Hash": "NZCWvWC9yQdXCFKVfbMvNXF/S8udu1vjAEZabdbwQxI=",
   "Source": "MedFlow",
   "BasePath": "_content/MedFlow",
   "Mode": "Default",
@@ -2361,6 +2361,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\UserPrescriptions\\123_ubettapres\\20230825\\prescription.pdf",
+      "SourceId": "MedFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\",
+      "BasePath": "_content/MedFlow",
+      "RelativePath": "UserPrescriptions/123_ubettapres/20230825/prescription.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UserPrescriptions\\123_ubettapres\\20230825\\prescription.pdf"
     }
   ]
 }

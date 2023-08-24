@@ -1,15 +1,3 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
-
-
-@{
-    Layout = "_Layout";
-    ViewData["Title"] = "patientqu";
-}
-
 <div class="container-fluid">
     <div class="modal fade" role="dialog" tabindex="-1" id="modal-1">
         <div class="modal-dialog" role="document">
@@ -28,7 +16,7 @@
         <div class="card-body">
             <div class="row">
                 <div class="col-md-6">
-                    <h3 class="text-dark mb-4">Token No:@Model.appointment.id</h3>
+                    <h3 class="text-dark mb-4">Token No:150</h3>
                 </div>
                 <div class="col">
                     <div>
@@ -44,30 +32,30 @@
         <div class="card-header py-3">
             <p class="text-primary m-0 fw-bold">Personal Details</p>
         </div>
-
+        
         <div class="card-body">
-            <form method="post" asp-controller="Patientq" asp-action="updatePatient">
+            <form method="post" >
                 <div class="row">
                     <div class="col">
-                        <div class="mb-3"><label class="form-label" for="username"><strong>Name</strong></label><input class="form-control" type="text" id="name" placeholder="Name" name="name" value="@Model.patient.name"></div>
+                        <div class="mb-3"><label class="form-label" for="username"><strong>Name</strong></label><input class="form-control" type="text" id="name" placeholder="Name" name="name"></div>
                     </div>
                     <div class="col">
-                        <div class="mb-3"><label class="form-label" for="email"><strong>contact number</strong></label><input class="form-control" type="email" id="email" placeholder="contact number" name="email" value="@Model.patient.contact"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <div class="mb-3"><label class="form-label" for="last_name"><strong>Gender</strong></label><input class="form-control" type="text" id="dob" placeholder="Gender" name="dob" value="@Model.patient.gender"></div>
+                        <div class="mb-3"><label class="form-label" for="email"><strong>contact number</strong></label><input class="form-control" type="email" id="email" placeholder="contact number" name="email"></div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <div class="mb-3"><label class="form-label" for="last_name"><strong>Date of Birth</strong></label><input class="form-control" type="text" id="dob" placeholder="Birth Day" name="dob" value="@Model.patient.birth_date"></div>
+                        <div class="mb-3"><label class="form-label" for="last_name"><strong>Gender</strong></label><input class="form-control" type="text" id="dob" placeholder="Gender" name="dob"></div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <div class="mb-3"><label class="form-label" for="first_name"><strong>Address</strong></label><input class="form-control" type="text" id="address" placeholder="Address" name="add" value="@Model.patient.address"></div>
+                        <div class="mb-3"><label class="form-label" for="last_name"><strong>Date of Birth</strong></label><input class="form-control" type="text" id="dob" placeholder="Birth Day" name="dob"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-3"><label class="form-label" for="first_name"><strong>Address</strong></label><input class="form-control" type="text" id="address" placeholder="Address" name="add"></div>
                     </div>
                 </div>
                 <div class="row">
@@ -87,27 +75,19 @@
                 <table class="table">
                     <thead>
                         <tr>
-                            <th>Date & Time</th>
-                            
+                            <th>A.Date</th>
+                            <th>A.Time</th>
                             <th>Token No</th>
-                            <!--<th>Attachment</th>-->
+                            <th>Attachment</th>
                         </tr>
                     </thead>
                     <tbody>
-
-                        @foreach (var pres in Model.prescription)
-                        {
-                            <tr>
-                                <td>@pres.date</td>
-                                <td>sample</td>
-                                <!--<td></td>-->
-                                <td><button class="btn btn-primary py-0" type="button" style="margin-left: 2px;margin-bottom: 0px;margin-right: 26px;"><i class="far fa-trash-alt"></i></button>
-                                    <button class="btn btn-primary py-0" type="button" style="margin-left: 0px;margin-right: 0px;"><i class="far fa-eye"></i></button></td>
-                            </tr>
-                        }
-
-
-                        
+                        <tr>
+                            <td>Cell 1</td>
+                            <td>Cell 2</td>
+                            <td>Cell 1</td>
+                            <td><button class="btn btn-primary py-0" type="button" style="margin-left: 2px;margin-bottom: 0px;margin-right: 26px;"><i class="far fa-trash-alt"></i></button><button class="btn btn-primary py-0" type="button" style="margin-left: 0px;margin-right: 0px;"><i class="far fa-eye"></i></button></td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -117,11 +97,8 @@
         <div class="card-body">
             <div class="row">
                 <div class="col-md-6">
-                    <form asp-controller="FileHandle" asp-action="Index" method="post">
-                        <input type="text" value="@Model.patient.Id" name="pid" style="display:none"/>
-                        <input type="text" value="pres" name="doc" style="display:none" />
-                        <input type="text" value="@Model.appointment.id" name="tok" style="display:none" />
-                        <div class="mb-3"><button class="btn btn-primary btn-sm" type="submit" data-bs-target="#modal-1" data-bs-toggle="modal">Write Prescription</button></div>
+                    <form>
+                        <div class="mb-3"><button class="btn btn-primary btn-sm" type="button" data-bs-target="#modal-1" data-bs-toggle="modal">Write Prescription</button></div>
                     </form>
                 </div>
                 <div class="col"><button class="btn btn-primary btn-sm" type="submit" style="float: right;">Submit</button></div>
@@ -129,6 +106,3 @@
         </div>
     </div>
 </div>
-
-
-
