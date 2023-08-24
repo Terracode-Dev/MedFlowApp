@@ -11,7 +11,7 @@ namespace MedFlow.Models
 
         public int id { get; set; }
         public DateTime date { get; set; }
-        public string status { get; set; }
-        public int patient_id { get; set; } //NOT A FOREIGN KEY
+        public string? status { get; set; }
+        public int? patient_id { get; set; } //NOT A FOREIGN KEY
     }
 }

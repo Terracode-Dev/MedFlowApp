@@ -8,8 +8,8 @@ namespace MedFlow.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        public int prescription_id { get; set; }
-        public int price { get; set; }
+        public int? prescription_id { get; set; }
+        public int? price { get; set; }
 
         
 

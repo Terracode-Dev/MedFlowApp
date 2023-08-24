@@ -10,15 +10,15 @@ namespace MedFlow.Models
         public int Id { get; set; }
         public string name { get; set; }
 
-        public string birth_date { get; set; }
+        public string? birth_date { get; set; }
 
-        public string contact { get; set; }
+        public string? contact { get; set; }
 
-        public string address { get; set; }
+        public string? address { get; set; }
 
-        public int added_by { get; set; }
+        public int? added_by { get; set; }
 
-        public string gender { get; set; }
+        public string? gender { get; set; }
 
         //Relations
         public ICollection<Prescriptions> prescriptions { get; set; }

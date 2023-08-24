@@ -8,7 +8,7 @@ namespace MedFlow.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        public int paid_count { get; set; }
+        public int? paid_count { get; set; }
 
     }
 }
