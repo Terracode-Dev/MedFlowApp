@@ -11,11 +11,13 @@ namespace MedFlow.Models
 
         public DateTime date { get; set; }
 
-        public string filepath { get; set; }
+        public string? filepath { get; set; }
 
-        public int patient_id { get; set; }
-        public int payment_id { get; set; }
-        
+        public int? patient_id { get; set; }
+        public int? payment_id { get; set; }
+
+        public string? billfilepath { get; set; }
+
 
         //Realtions
         public Patient patient { get; set; }

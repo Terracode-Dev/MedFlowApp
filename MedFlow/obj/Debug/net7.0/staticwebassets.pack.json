@@ -1,247 +1,551 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MedFlow.bundle.scp.css",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MedFlow.bundle.scp.css",
       "PackagePath": "staticwebassets\\MedFlow.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\._css",
+      "PackagePath": "staticwebassets\\._css"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\._favicon.ico",
+      "PackagePath": "staticwebassets\\._favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\._js",
+      "PackagePath": "staticwebassets\\._js"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\._lib",
+      "PackagePath": "staticwebassets\\._lib"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\css\\._bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\._bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\css\\._site.css",
+      "PackagePath": "staticwebassets\\css\\._site.css"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\js\\._site.js",
+      "PackagePath": "staticwebassets\\js\\._site.js"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\js\\._theme.js",
+      "PackagePath": "staticwebassets\\js\\._theme.js"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\js\\theme.js",
+      "PackagePath": "staticwebassets\\js\\theme.js"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\._bootstrap",
+      "PackagePath": "staticwebassets\\lib\\._bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\._jquery",
+      "PackagePath": "staticwebassets\\lib\\._jquery"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\._jquery-validation",
+      "PackagePath": "staticwebassets\\lib\\._jquery-validation"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\._jquery-validation-unobtrusive",
+      "PackagePath": "staticwebassets\\lib\\._jquery-validation-unobtrusive"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\._LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\._LICENSE"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\._dist",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\._dist"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\._css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\._css"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\._js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\._js"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\._bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\._bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\._bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\._bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\._bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\._bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\._bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\._bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\._bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\._bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\._bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\._bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\._bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\._bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\._bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\._bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\._bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\._bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\._bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\._bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\._bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\._bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\._bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\._bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\._bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\._bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\._LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\._LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\._jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\._jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\._jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\._jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery-validation\\._LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\._LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery-validation\\._dist",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\._dist"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery-validation\\dist\\._additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\._additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery-validation\\dist\\._additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\._additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery-validation\\dist\\._jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\._jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery-validation\\dist\\._jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\._jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery\\._LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\._LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery\\._dist",
+      "PackagePath": "staticwebassets\\lib\\jquery\\._dist"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery\\dist\\._jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\._jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery\\dist\\._jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\._jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery\\dist\\._jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\._jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOW\\MedFlow\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
