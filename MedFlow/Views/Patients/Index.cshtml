@@ -17,11 +17,15 @@
                             <form method="post" asp-action="AddPatient" asp-controller="Patients">
                                 <div class="mb-3"><input class="form-control" type="text" id="name-2" name="name" placeholder="Name"></div>
                                 <div class="mb-3"><input class="form-control" type="text" id="name-1" name="cno" placeholder="Contact No"></div>
-                                <div class="mb-3"><input class="form-control" type="text" id="name-3" name="bday" placeholder="Birth Day"></div>
-                                <div class="mb-3"><input class="form-control" type="text" id="name-4" name="age" placeholder="Age"></div>
+                                <div class="mb-3"><input class="form-control" type="date" id="name-3" name="bday" placeholder="Birth Day"></div>
+                                
                                 <div class="mb-3">
-                                    <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Male</label></div>
-                                    <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Female</label></div>
+                                    <select class="form-select" aria-label="Default select example" name="gender">
+                                        <option selected>Open this select menu</option>
+                                        <option value="male">male</option>
+                                        <option value="female">female</option>
+                                        
+                                    </select>
                                 </div>
                                 <div class="mb-3"><textarea class="form-control" id="message-2" name="address" rows="3" placeholder="Address"></textarea></div>
                                 <div><button class="btn btn-primary d-block w-100" type="submit">Submit</button><button class="btn btn-primary d-block w-100" type="reset" style="margin-top: 9px;">Reset</button></div>
@@ -59,7 +63,9 @@
                         </div>
                         <div class="col-md-6">
                             <div class="text-md-end dataTables_filter" id="dataTable_filter">
-                                <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ..." style="margin-left: 200px;"><button class="btn btn-primary py-0" type="button"><i class="fas fa-search"></i></button></div>
+                                <form method="get" asp-action="SearchPatient" asp-controller="Patients">
+                                    <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ..." name="searchString" style="margin-left: 200px;"><button class="btn btn-primary py-0" type="submit"><i class="fas fa-search"></i></button></div>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -81,7 +87,11 @@
                                     <td>@item.name</td>
                                     <td>@item.contact</td>
                                     <td>@item.birth_date</td>
-                                        <td class="d-sm-block"><a class="btn btn-primary py-0" asp-action="EditPatient" asp-controller="Patients" asp-route-Id="@item.Id" type="button" style="margin-left: 2px;margin-bottom: 0px;margin-right: 26px;"><i class="far fa-trash-alt"></i></a><a class="btn btn-primary py-0" type="button" asp-action="EditPatient" asp-controller="Patients" asp-route-Id="@item.Id" style="margin-left: 0px;margin-right: 0px;"><i class="far fa-eye"></i></a></td>
+                                        <td class="d-sm-block">
+                                            <div class="row">
+                                                <div class="col"><form method="post" asp-action="DeletePatient" asp-controller="Patients" asp-route-Id="@item.Id"><button class="btn btn-primary py-0" type="submit" style="margin-left: 2px;margin-bottom: 0px;margin-right: 26px;"><i class="far fa-trash-alt"></i></button></form></div><div class="col"><a class="btn btn-primary py-0" type="button" asp-action="EditPatient" asp-controller="Patients" asp-route-Id="@item.Id" style="margin-left: 0px;margin-right: 0px;"><i class="far fa-eye"></i></a></div>
+                                            </div>
+                                        </td>
                                 </tr>
                                 }
                             </tbody>

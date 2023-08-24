@@ -8,16 +8,35 @@ namespace MedFlow.Controllers
     public class PatientsController : Controller
     {
         private readonly ApplicationDbContext DbContext;
+
+        //Db connection/constructor
         public PatientsController(ApplicationDbContext Context)
         {
             DbContext = Context;
         }
+
+        //patient tab load
         public IActionResult Index()
         {
             IEnumerable<Patient> patientList = DbContext.patients;
             return View(patientList);
         }
 
+        //search patient
+        [HttpGet]
+        public IActionResult SearchPatient(string searchString)
+        {
+            if (string.IsNullOrEmpty(searchString))
+            {
+                return RedirectToAction("Index");
+            }
+
+            IEnumerable<Patient> filteredPatients = DbContext.patients.Where(patient => patient.name.Contains(searchString) || patient.Id.ToString() == searchString);
+
+            return View("Index", filteredPatients);
+        }
+
+        //add patient
         [HttpPost]
         public IActionResult AddPatient(IFormCollection data)
         {
@@ -30,8 +49,8 @@ namespace MedFlow.Controllers
                 birth_date = string.IsNullOrEmpty(data["bday"]) ? "null" : data["bday"],
                 contact = string.IsNullOrEmpty(data["cno"]) ? "null" : data["cno"],
                 address = string.IsNullOrEmpty(data["address"]) ? "null" : data["address"],
-                added_by = 1,
-                gender = "male",
+                added_by = 1,                                                                   //add role............!
+                gender = string.IsNullOrEmpty(data["gender"]) ? "null" : data["gender"],
             };
 
             DbContext.patients.Add(newPatient);
@@ -40,7 +59,7 @@ namespace MedFlow.Controllers
             return RedirectToAction("index");
         }
 
-        
+        //edit btn
         public IActionResult EditPatient(int? Id)
         {
             if(Id == null || Id == 0)
@@ -65,6 +84,8 @@ namespace MedFlow.Controllers
             return View(newdata); 
         }
 
+        //edit function
+
         [HttpPost]
         public IActionResult SaveEditPatient(Patient editedPatient)
         {
@@ -78,9 +99,9 @@ namespace MedFlow.Controllers
                     existingPatient.name = editedPatient.name;
                     existingPatient.contact = editedPatient.contact;
                     existingPatient.birth_date = editedPatient.birth_date;
-                existingPatient.address = editedPatient.address;
+                    existingPatient.address = editedPatient.address;
 
-                // Update other properties as needed
+                
 
                     DbContext.SaveChanges();
                 }
@@ -89,5 +110,24 @@ namespace MedFlow.Controllers
             
 
         }
+
+
+        //delete btn
+        [HttpPost]
+        public IActionResult DeletePatient(int id)
+        {
+            var patientToDelete = DbContext.patients.Find(id);
+
+            if (patientToDelete == null)
+            {
+                return NotFound();
+            }
+
+            DbContext.patients.Remove(patientToDelete);
+            DbContext.SaveChanges();
+
+            return RedirectToAction("Index"); 
+        }
+
     }
 }
