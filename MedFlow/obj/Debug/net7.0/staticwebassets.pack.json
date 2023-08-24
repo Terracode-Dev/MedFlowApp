@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\dogs\\image2.jpeg"
     },
     {
+      "Id": "E:\\MedFlowApp\\MedFlow\\wwwroot\\assets\\img\\nurse-helping-sick-child-pediatric-patient-hospital-cartoon-vector.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\nurse-helping-sick-child-pediatric-patient-hospital-cartoon-vector.jpg"
+    },
+    {
       "Id": "E:\\MedFlowApp\\MedFlow\\wwwroot\\assets\\js\\theme.js",
       "PackagePath": "staticwebassets\\assets\\js\\theme.js"
     },
@@ -43,6 +47,22 @@
     {
       "Id": "E:\\MedFlowApp\\MedFlow\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\MedFlowApp\\MedFlow\\wwwroot\\home_assets\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\home_assets\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\MedFlowApp\\MedFlow\\wwwroot\\home_assets\\img\\GettyImages-1048802976.jpg",
+      "PackagePath": "staticwebassets\\home_assets\\img\\GettyImages-1048802976.jpg"
+    },
+    {
+      "Id": "E:\\MedFlowApp\\MedFlow\\wwwroot\\home_assets\\img\\GettyImages-1048802976.webp",
+      "PackagePath": "staticwebassets\\home_assets\\img\\GettyImages-1048802976.webp"
+    },
+    {
+      "Id": "E:\\MedFlowApp\\MedFlow\\wwwroot\\home_assets\\js\\agency.js",
+      "PackagePath": "staticwebassets\\home_assets\\js\\agency.js"
     },
     {
       "Id": "E:\\MedFlowApp\\MedFlow\\wwwroot\\js\\site.js",

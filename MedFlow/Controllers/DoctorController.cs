@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MedFlow.Controllers
 {
-    
+
     public class DoctorController : Controller
     {
         public IActionResult PaymentHis()

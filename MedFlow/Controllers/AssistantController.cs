@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MedFlow.Controllers
 {
-    
+    [Authorize]
     public class AssistantController : Controller
     {
         public IActionResult Dashboard()

@@ -22,14 +22,17 @@ namespace MedFlow.Controllers
         public IActionResult Varify(login acc)
         {
 
-            if (acc.Email == "admin@gmail.com" && acc.Password == "123")
-            {
-                return View("~/Views/Doctor/Doctor_dashboard.cshtml");
-            }
-            else
-            {
-                return View("~/Views/Assistant/Dashboard.cshtml");
-            }
+
+            /* if (acc.Email == "admin@gmail.com" && acc.Password == "123")
+             {
+                 return View("~/Views/Doctor/Doctor_dashboard.cshtml");
+             }
+             else
+             {
+                 return View("~/Views/Assistant/Dashboard.cshtml");
+             }*/
+
+            return View("~/Views/Doctor/Doctor_dashboard.cshtml");
 
         }
 
