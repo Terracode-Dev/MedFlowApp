@@ -13,7 +13,21 @@ namespace MedFlow.Controllers
             DbContext = Context;
         }
 
-        public IActionResult Adashboard()
+        //---UTILITY METHODS----
+        public List<Patient> SearchQuery(string qname)
+        {
+            var dataset = DbContext.patients.Where(patient => patient.name == qname).ToList();
+            return dataset;
+        }
+
+        public int CreateAppointment(Appointmentq data)
+        {
+            DbContext.appointmentq.Add(data);
+            DbContext.SaveChanges();
+            return 1;
+        }
+
+        public object CreateAnalyticPanel ()
         {
             int patient_count = DbContext.patients.Count();
             int paymentq_count = DbContext.prescriptionq.Count();
@@ -25,17 +39,46 @@ namespace MedFlow.Controllers
                 PatientsCount = patient_count,
                 PatientqCount = appointment_count,
                 PaymentqCount = paymentq_count
-                
+
 
             };
+            return assistant_obj;
+        }
 
-            return View(assistant_obj);
+        //----VIEW HANDLERS----
+
+        public IActionResult Search()
+        {
+            string searchTxt = Request.Query["searchText"];
+            var data = SearchQuery(searchTxt);
+            return PartialView("search", data);
+        }
+
+        public IActionResult addAppointment(int uid)
+        {
+
+            var data = new Appointmentq
+            {
+                date = DateTime.Now,
+                status = "Active",
+                patient_id = uid,
+            };
+            CreateAppointment(data);
+            return RedirectToAction("Adashboard");
+
+
+        }
+
+
+
+
+        public IActionResult Adashboard()
+        {
+            return View(CreateAnalyticPanel());
         }
         [HttpPost]
         public IActionResult AddAppointment(FormCollection data)
         {
-            
-
             return RedirectToAction("Adashboard");
         }
         [HttpPost]
