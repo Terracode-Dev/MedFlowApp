@@ -76,6 +76,12 @@ namespace MedFlow.Controllers
         {
             return View(CreateAnalyticPanel());
         }
+
+
+        public IActionResult Ddashboard() {
+            return View("Ddashboard");
+        }
+
         [HttpPost]
         public IActionResult AddAppointment(FormCollection data)
         {

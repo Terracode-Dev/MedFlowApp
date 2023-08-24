@@ -36,6 +36,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXHNlYXJjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/FileHandle/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZUhhbmRsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -56,8 +60,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Paymentq/Paymentq.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudHFcUGF5bWVudHEuY3NodG1s
+[C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Paymentq/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudHFcaW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Nomin/Desktop/V STUDIO UNI/MEDFLOWAPPGIT/MedFlow/Views/Shared/Error.cshtml]
