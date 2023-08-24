@@ -21,9 +21,10 @@ namespace MedFlow.Controllers
         }
         public IActionResult Index(Patient data)
         {
-            return View();
             this.uid = data.Id;
             this.uname = data.name;
+            return View();
+            
         }
 
         public ActionResult GeneratePrescription(string prescriptionContent)
