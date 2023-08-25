@@ -9,7 +9,7 @@ namespace MedFlow.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
-        public string type { get; set; }
+        public string? type { get; set; }
 
 
         //Relations

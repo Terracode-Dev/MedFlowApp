@@ -1,0 +1,101 @@
+﻿@using MedFlow.ViewModel
+@model editPatientViewModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="container-fluid">
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-1">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Prescription</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Write a Patients Prescription</p><textarea style="width: 451px;min-width: 0px;height: 107px;padding-top: 0px;padding-bottom: 0px;margin-top: 10px;"></textarea>
+                </div>
+                <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="card shadow mb-3">
+        <div class="card-header py-3">
+            <p class="text-primary m-0 fw-bold">Personal Details</p>
+        </div>
+        <div class="card-body">
+            <form action="/Patients/SaveEditPatient/@Model.Patient.Id" method="post">
+                
+
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-3"><label class="form-label" for="username"><strong>Name</strong></label><input class="form-control" type="text"  asp-for="Patient.name" name="name"></div>
+                    </div>
+                    
+                   
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-3"><label class="form-label" for="first_name"><strong>Phone Number</strong></label><input class="form-control" type="text" asp-for="Patient.contact" name="contact"></div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-3"><label class="form-label" for="last_name"><strong>Date of Birth</strong></label><input class="form-control" type="date" asp-for="Patient.birth_date" name="birth_date"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-3"><label class="form-label" for="first_name"><strong>Address</strong></label><input class="form-control" type="text"  asp-for="Patient.address" name="address"></div>
+                    </div>
+                </div>
+                <div class="col"><button class="btn btn-primary btn-sm" type="submit" style="float: right;">Submit</button></div>
+            </form>
+        </div>
+    </div>
+    <div class="card shadow">
+        <div class="card-header py-3">
+            <p class="text-primary m-0 fw-bold">Medical Reports</p>
+        </div>
+        <div class="card-body">
+            @if (Model.prescriptions != null && Model.prescriptions.Any())
+            {
+                <div class="table-responsive">
+                    <table class="table">
+                    <thead>
+                        <tr>
+                            <th>A.Date</th>
+                            <th>payment Id</th>
+                            <th>Patient Id</th>
+                            <th>Attachment</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.prescriptions)
+                        {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.payment_id</td>
+                            <td>@item.patient_id</td>
+                            <td><a class="btn btn-primary py-0" type="button" href="@item.filepath"  style="margin-left: 2px;margin-bottom: 0px;margin-right: 26px;"><i class="far fa-trash-alt"></i></a><a class="btn btn-primary py-0" type="button" href="@item.filepath" style="margin-left: 0px;margin-right: 0px;"><i class="far fa-eye"></i></a></td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+                </div>
+            }else
+            {
+                <p>No Data added</p>
+            }
+        </div>
+    </div>
+    <div class="card shadow mb-5">
+        <div class="card-body">
+            <div class="row">
+                <div class="col"><button class="btn btn-primary btn-sm" type="submit" style="float: right;">Submit</button></div>
+            </div>
+        </div>
+    </div>
+</div>

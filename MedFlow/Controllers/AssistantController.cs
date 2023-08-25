@@ -59,7 +59,7 @@ namespace medflow.Controllers
             return View();
         }
 
-        public IActionResult Appointments()
+        public IActionResult Appointmentq()
         {
             return View();
         }
