@@ -124,6 +124,9 @@ namespace MedFlow.Migrations
                     b.Property<int?>("payment_id")
                         .HasColumnType("int");
 
+                    b.Property<int?>("token")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("patient_id");

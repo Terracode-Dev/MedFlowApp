@@ -54,10 +54,10 @@ namespace MedFlow.Controllers
                 return Content("Input is Empty.");
             }
 
-            int userId = 123; //this.uid
-            string username = "ubetta";//this.name
+            //int userId = 123; //this.uid
+            //string username = "ubetta";//this.name
 
-            string userFolderPath = Path.Combine(_environment.WebRootPath, "UserPrescriptions", TempData["pid"] + "_" + TempData["uname"] );
+            string userFolderPath = Path.Combine(_environment.WebRootPath, "UserDocuments", TempData["pid"] + "_" + TempData["uname"] );
             string dateFolderName = DateTime.Now.ToString("yyyyMMdd");
             string dateFolderPath = Path.Combine(userFolderPath, dateFolderName);
             string fullPath = Path.Combine(dateFolderPath, $"doc{TempData["doctype"]}.pdf");
@@ -87,15 +87,19 @@ namespace MedFlow.Controllers
             //--custom added---
             var obj = new Prescriptions
             {
-                filepath = fullPath,
+                date = DateTime.Now,
+                filepath = Convert.ToString(fullPath),
                 patient_id = Convert.ToInt32(TempData["pid"]),
-                //token = Convert.ToInt32(TempData["tok"]),
-                date=DateTime.Now,
+                billfilepath = "",
+                payment_id=null,
+                token = Convert.ToInt32(TempData["tok"]),
+                
 
             };
 
             //return Content(fullPath);
-            return RedirectToAction("savePathtoDb", new {pathObj = obj});
+            //new { pathObj = obj }
+            return RedirectToAction("savePathtoDb", obj );
             //return RedirectToAction("Adashboard"); --move to prescription path save action in DB after saving prescription .<fullpath> data widiyata pass wenw,
             // action will redirect to doca dash...
         }
@@ -105,7 +109,7 @@ namespace MedFlow.Controllers
             DbContext.prescriptions.Add(pathModel);
             DbContext.SaveChanges();
 
-            return RedirectToAction("Index","Patientq");
+            return RedirectToAction("Index", "Patientq");
         }
     }
 }

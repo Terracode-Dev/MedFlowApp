@@ -99,7 +99,7 @@
                         {
                             <tr>
                                 <td>@pres.date</td>
-                                <td>sample</td>
+                                <td>@pres.token</td>
                                 <!--<td></td>-->
                                 <td><button class="btn btn-primary py-0" type="button" style="margin-left: 2px;margin-bottom: 0px;margin-right: 26px;"><i class="far fa-trash-alt"></i></button>
                                     <button class="btn btn-primary py-0" type="button" style="margin-left: 0px;margin-right: 0px;"><i class="far fa-eye"></i></button></td>
@@ -124,7 +124,7 @@
                         <div class="mb-3"><button class="btn btn-primary btn-sm" type="submit" data-bs-target="#modal-1" data-bs-toggle="modal">Write Prescription</button></div>
                     </form>
                 </div>
-                <div class="col"><button class="btn btn-primary btn-sm" type="submit" style="float: right;">Submit</button></div>
+                <div class="col"><button class="btn btn-primary btn-sm" type="submit" style="float: right;"><a asp-controller="Patientq" asp-action="DeleteAppointment" asp-route-aid="@Model.appointment.id" style="color:white;text-decoration:none;">Submit</a></button></div>
             </div>
         </div>
     </div>

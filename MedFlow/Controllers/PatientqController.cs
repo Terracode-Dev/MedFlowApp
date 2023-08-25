@@ -36,7 +36,7 @@ namespace MedFlow.Controllers
 				
 			}
 
-			return View();
+			return View(); //good to apply some error messages
             
         }
 
@@ -45,6 +45,22 @@ namespace MedFlow.Controllers
 
 			
 			return View("Index");
+		}
+
+        public void removeAppoinment(int aid)
+        {
+            var app = DbContext.appointmentq.Find(aid);
+            if (app != null)
+            {
+                DbContext.appointmentq.Remove(app);
+                DbContext.SaveChanges();
+            }
+        }
+
+        public IActionResult DeleteAppointment (int aid)
+		{
+			removeAppoinment (aid);
+			return RedirectToAction("Index");
 		}
     }
 }
