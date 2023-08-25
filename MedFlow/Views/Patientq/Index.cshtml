@@ -104,7 +104,7 @@
                                 <td>
                                     <a asp-controller="Patientq" asp-action="DeleteReport" asp-route-presid="@pres.Id"><button class="btn btn-primary py-0" type="button" style="margin-left: 2px;margin-bottom: 0px;margin-right: 26px;"><i class="far fa-trash-alt"></i></button></a>
                                     <a asp-controller="Patientq" asp-action="DownloadContent" asp-route-presid="@pres.Id"><button class="btn btn-primary py-0" type="button" style="margin-left: 0px;margin-right: 0px;"><i class="far fa-eye"></i></button></a>
-                                </td>-->
+                                </td>
                             </tr>
                         }
 
@@ -123,7 +123,7 @@
                         <input type="text" value="@Model.patient.Id" name="pid" style="display:none"/>
                         <input type="text" value="pres" name="doc" style="display:none" />
                         <input type="text" value="@Model.appointment.id" name="tok" style="display:none" />
-                        <div class="mb-3"><button class="btn btn-primary btn-sm" type="submit" data-bs-target="#modal-1" data-bs-toggle="modal">Write Prescription</button></div>
+                        <div class="mb-3"><button class="btn btn-primary btn-sm" type="submit" >Write Prescription</button></div>
                     </form>
                 </div>
                 <div class="col"><button class="btn btn-primary btn-sm" type="submit" style="float: right;"><a asp-controller="Patientq" asp-action="DeleteAppointment" asp-route-aid="@Model.appointment.id" style="color:white;text-decoration:none;">Submit</a></button></div>

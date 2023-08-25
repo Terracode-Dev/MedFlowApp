@@ -3,17 +3,19 @@
 }
 <!--Me tikth gnin-->
 <div class="text-center">
-    <h2>Generate Prescription</h2>
+    <h2>Enter Billing Details</h2>
 
     <form asp-controller="BillFileHandle" asp-action="GeneratePrescription" method="post">
-        <div class="form-group">
-            <label for="prescriptionContent">Enter Prescription Content:</label>
-            <textarea class="form-control mt-3" id="prescriptionContent" name="billContent" rows="5"></textarea>
+        
+        <div class="form-group" style="display:flex;gap:5px;align-items:center;">
+            <span>Enter Price:  </span>
+            <input type="text" class="form-control" id="price" name="price" rows="5" style="width:246px;"/>
         </div>
-        <div class="form-group">
-            <label for="pdfContent">Enter Price</label>
-            <input type="text" class="form-control" id="price" name="price" rows="5" />
+        <div class="form-group" style="display:flex;gap:5px;align-items:flex-start;flex-direction:column;justify-content:center;">
+            <label for="prescriptionContent">Enter Billing Content:</label>
+            <textarea class="form-control " id="prescriptionContent" name="billContent" rows="5"></textarea>
         </div>
+        
         <button type="submit" class="btn btn-primary mt-3">Finish</button>
     </form>
 
