@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "G7j/5eBkAcUS5ZdJwrvA23CrHFalR/WYTht1iJNBfE4=",
+  "Hash": "sbQxOcjQjriPOoWh23XSPdJn1fTMnLdTwu9Tf+iLp0o=",
   "Source": "MedFlow",
   "BasePath": "_content/MedFlow",
   "Mode": "Default",
@@ -2361,6 +2361,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\UserDocuments\\5_Kamal\\20230825\\docbill.pdf",
+      "SourceId": "MedFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\",
+      "BasePath": "_content/MedFlow",
+      "RelativePath": "UserDocuments/5_Kamal/20230825/docbill.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UserDocuments\\5_Kamal\\20230825\\docbill.pdf"
     },
     {
       "Identity": "C:\\Users\\Nomin\\Desktop\\V STUDIO UNI\\MEDFLOWAPPGIT\\MedFlow\\wwwroot\\UserDocuments\\5_Kamal\\20230825\\docpres.pdf",

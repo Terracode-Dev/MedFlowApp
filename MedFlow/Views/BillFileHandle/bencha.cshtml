@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<!--Me tikth gnin-->
+<div class="text-center">
+    <h2>Generate Prescription</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-controller="Home" asp-action="GeneratePrescription" method="post">
+                <div class="form-group">
+                    <label for="pdfContent">Enter Prescription Content:</label>
+                    <textarea class="form-control" id="prescriptionContent" name="prescriptionContent" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Prescribe</button>
+            </form>
+        </div>
+        <!-----------------------------Controller ek mthk krl daapn-------------------------->
+        <div class="col-md-3">
+            <form asp-controller="" asp-action="" method="post">
+                <div class="form-group">
+                    <label for="pdfContent">Enter Price</label>
+                    <input type="text" class="form-control" id="Price" name="Price" rows="5"/>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Submit</button>
+            </form>
+        </div>
+        <!--------------------------iwrai--------------------------------------------------->
+    </div>
+
+</div>
+@if (Model != null)
+{
+    <p>PDF file generated. File path: @Model</p>
+}
+<!--Methnin ehat mokuth na blala wdk na-->
