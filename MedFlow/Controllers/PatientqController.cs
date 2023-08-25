@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MedFlow.Models;
 using iTextSharp.xmp.impl;
+using System.IO;
 
 namespace MedFlow.Controllers
 {
@@ -57,10 +58,77 @@ namespace MedFlow.Controllers
             }
         }
 
-        public IActionResult DeleteAppointment (int aid)
+        public void removePrescription(int presid)
+        {
+            var pres = DbContext.prescriptions.Find(presid);
+            Prescriptions doc;
+            
+            if (pres != null)
+            {
+                doc = DbContext.prescriptions.Where(p => p.Id == presid).FirstOrDefault();
+                
+                if (doc.filepath!=null)
+                {
+                    FileInfo presfile = new FileInfo(doc.filepath);
+                    presfile.Delete();
+                }
+                if (doc.billfilepath!=null)
+                {
+                    FileInfo billfile = new FileInfo(doc.billfilepath);
+                    billfile.Delete();
+                }
+
+                DbContext.prescriptions.Remove(pres);
+                DbContext.SaveChanges();
+            }
+        }
+
+       
+
+            public IActionResult DeleteAppointment (int aid)
 		{
 			removeAppoinment (aid);
 			return RedirectToAction("Index");
 		}
+
+		public IActionResult DeleteReport (int presid)
+		{
+
+
+            removePrescription(presid);
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult DownloadContent (int presid)
+        {
+
+            var pres = DbContext.prescriptions.Find(presid);
+            Prescriptions doc;
+            var contentType = "application/octet-stream";
+
+            if (pres != null)
+            {
+                doc = DbContext.prescriptions.Where(p => p.Id == presid).FirstOrDefault();
+
+                if (doc.filepath != null)
+                {
+                    var filenm = Path.GetFileName(doc.filepath);
+                    return File(System.IO.File.OpenRead(doc.filepath), contentType , filenm);
+
+                }
+                if (doc.billfilepath != null)
+                {
+                    var file2nm = Path.GetFileName(doc.billfilepath);
+                    return File(System.IO.File.OpenRead(doc.billfilepath), contentType, file2nm);
+                }
+
+                
+            }
+
+
+
+
+            return RedirectToAction("Index");
+        }
     }
 }

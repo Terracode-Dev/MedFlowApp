@@ -10,7 +10,7 @@ namespace MedFlow.Models
         public int id { get; set; }
         public string? username { get; set; }
         public string? password { get; set; }
-        public int? user_type { get; set; }
+        public int user_type { get; set; }
 
         //Realtioships
         public ICollection<Patient> patients { get; set; }

@@ -15,7 +15,8 @@ namespace MedFlow.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("Index", "Auth");
+            //dfdsf
         }
 
         public IActionResult Privacy()

@@ -186,6 +186,9 @@ namespace MedFlow.Migrations
                     b.Property<int?>("patient_id")
                         .HasColumnType("int");
 
+                    b.Property<int>("prescription_id")
+                        .HasColumnType("int");
+
                     b.Property<int?>("token")
                         .HasColumnType("int");
 
@@ -205,7 +208,7 @@ namespace MedFlow.Migrations
                     b.Property<string>("password")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("user_type")
+                    b.Property<int>("user_type")
                         .HasColumnType("int");
 
                     b.Property<string>("username")
@@ -265,7 +268,9 @@ namespace MedFlow.Migrations
                 {
                     b.HasOne("MedFlow.Models.userType", "userType")
                         .WithMany("userDetails")
-                        .HasForeignKey("user_type");
+                        .HasForeignKey("user_type")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("userType");
                 });

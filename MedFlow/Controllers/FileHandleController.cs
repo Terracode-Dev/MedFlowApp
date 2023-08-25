@@ -96,17 +96,31 @@ namespace MedFlow.Controllers
                 
 
             };
-
-            //return Content(fullPath);
-            //new { pathObj = obj }
+            
+            
             return RedirectToAction("savePathtoDb", obj );
-            //return RedirectToAction("Adashboard"); --move to prescription path save action in DB after saving prescription .<fullpath> data widiyata pass wenw,
-            // action will redirect to doca dash...
         }
 
         public IActionResult savePathtoDb(Prescriptions pathModel)
         {
             DbContext.prescriptions.Add(pathModel);
+
+            DbContext.SaveChanges();
+            //saving to presQ --NEW---
+            Prescriptions ent = DbContext.prescriptions.Where(d => d.token==pathModel.token && d.patient_id==pathModel.patient_id).FirstOrDefault();
+
+            var data = new prescriptionq
+            {
+                date = pathModel.date,
+                token = pathModel.token,
+                patient_id = pathModel.patient_id,
+                prescription_id = ent.Id,
+
+            };
+
+
+
+            DbContext.prescriptionq.Add(data);
             DbContext.SaveChanges();
 
             return RedirectToAction("Index", "Patientq");
