@@ -25,14 +25,19 @@ namespace MedFlow.Controllers
             _environment = environment;
             DbContext = context;
         }
-        public IActionResult Index(int prqid)
+        public IActionResult Index(int pqid)
         {
-            prescriptionq pres = DbContext.prescriptionq.Where(e => e.id==prqid).FirstOrDefault();
-            Patient patient = DbContext.patients.Where(p => p.Id == pres.patient_id).FirstOrDefault();
-            
-            TempData["pid"] = patient.Id;
-            TempData["pname"] = patient.name;
-            TempData["presId"] = pres.prescription_id;
+            prescriptionq presq = DbContext.prescriptionq.Where(e => e.id==pqid).FirstOrDefault();
+            if (presq != null)
+            {
+                
+
+                Patient patient = DbContext.patients.Where(p => p.Id == presq.patient_id).FirstOrDefault();
+
+                TempData["pid"] = patient.Id;
+                TempData["pname"] = patient.name;
+                TempData["presId"] = presq.prescription_id;
+            }
             return View();
         }
 
