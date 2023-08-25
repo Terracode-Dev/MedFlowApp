@@ -8,9 +8,13 @@
     <form asp-controller="BillFileHandle" asp-action="GeneratePrescription" method="post">
         <div class="form-group">
             <label for="prescriptionContent">Enter Prescription Content:</label>
-            <textarea class="form-control mt-3" id="prescriptionContent" name="prescriptionContent" rows="5"></textarea>
+            <textarea class="form-control mt-3" id="prescriptionContent" name="billcontent" rows="5"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary mt-3">Prescribe</button>
+        <div class="form-group">
+            <label for="pdfContent">Enter Price</label>
+            <input type="text" class="form-control" id="price" name="price" rows="5" />
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Finish</button>
     </form>
 
 </div>

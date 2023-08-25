@@ -9,6 +9,7 @@ using MedFlow.ViewModel;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Org.BouncyCastle.Asn1.Ocsp;
 
+
 namespace MedFlow.Controllers
 {
     public class BillFileHandleController : Controller
@@ -41,9 +42,9 @@ namespace MedFlow.Controllers
             return View();
         }
 
-        public ActionResult GeneratePrescription(string prescriptionContent)
+        public ActionResult GeneratePrescription(BillingModel bill)
         {
-            if (string.IsNullOrEmpty(prescriptionContent))
+            if (string.IsNullOrEmpty(bill.billContent))
             {
                 return Content("Input is Empty.");
             }
@@ -72,13 +73,25 @@ namespace MedFlow.Controllers
                 {
                     doc.Open();
 
-                    doc.Add(new Paragraph(prescriptionContent));
+                    doc.Add(new Paragraph(bill.billContent));
 
                     doc.Close();
                 }
             }
 
-            //--custom added---
+
+
+            //---pushing to payment table--
+            var slip = new Payments
+            {
+                prescription_id = Convert.ToInt32(TempData["presId"]),
+                price = Convert.ToInt32(bill.price),
+            };
+            DbContext.payment.Add(slip);
+            DbContext.SaveChanges();
+
+
+            //--added bill saver---
             var obj = new Prescriptions
             {
                 billfilepath = fullPath,
